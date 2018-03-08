@@ -1,0 +1,2 @@
+# ngCribs
+Built with angular
