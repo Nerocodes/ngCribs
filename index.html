@@ -11,11 +11,17 @@
 
 <body ng-app="ngCribs" ng-controller="cribsController">
     <div class="well" ng-repeat="crib in cribs">
+        <div class="jumbotron">
+            <h1>ng-cribs</h1>
+        </div>
         <h3>{{ crib.address }}</h3>
         <p><strong>Type:</strong>{{ crib.type }}</p>
         <p><strong>Description:</strong> {{ crib.description }}</p>
         <p><strong>Price:</strong>{{ crib.price | currency}}</p>
     </div>
+    <footer>
+        NeroCodes &copy;2018
+    </footer>
 
 </body>
 <script src="lib/angular.min.js"></script>
